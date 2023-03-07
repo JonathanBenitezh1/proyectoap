@@ -1,7 +1,31 @@
-.row{
-    background-color: #040411;
-    padding: 20px;
+.row {
+  background-color: #040411;
+  padding: 20px;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
-h1{
-    color:white
+h1 {
+  color: white;
 }
+/*css bootstrap*/
+.col-sm-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.text-center {
+    text-align: center !important;
+  }
+  /*cierre css bootstrap*/
