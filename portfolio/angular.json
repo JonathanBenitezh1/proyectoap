@@ -88,9 +88,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "portfolio/node_modules/bootstrap/dist/css/bootstrap.css",
-              
-            ],
+              "portfolio/node_modules/bootstrap/dist/css/bootstrap.css"],
             "scripts": [
               "portfolio/node_modules/bootstrap/dist/js/bootstrap.js"
             ]
